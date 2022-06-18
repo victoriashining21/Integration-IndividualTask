@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ConsumerService.DAL
 {
-    public class Repository<T> : IRepository<T> where T : BaseClass
+    public class Repository<T> : IRepository<T> where T : BaseClass // child of interface IRepository
     {
         private readonly NewsContext _context;
         private readonly DbSet<T> _entities;
