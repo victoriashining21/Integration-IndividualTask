@@ -55,7 +55,7 @@ namespace GraphQLService
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
-
+            // Redis Server
             var cnstring = $"{Configuration.GetSection("Redis").GetSection("Server").Value}:{Configuration.GetSection("Redis").GetSection("Port").Value}";
 
             var redisOptions = new RedisCacheOptions
