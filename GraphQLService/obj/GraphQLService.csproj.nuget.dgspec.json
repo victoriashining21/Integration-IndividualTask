@@ -1,0 +1,262 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\GraphQLService\\GraphQLService.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\ConsumerService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\ConsumerService.csproj",
+        "projectName": "ConsumerService",
+        "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\ConsumerService.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj": {
+                "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.13, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.25, 3.1.25]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\GraphQLService\\GraphQLService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\GraphQLService\\GraphQLService.csproj",
+        "projectName": "GraphQLService",
+        "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\GraphQLService\\GraphQLService.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\GraphQLService\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\ConsumerService.csproj": {
+                "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\ConsumerService.csproj"
+              },
+              "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj": {
+                "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "GraphQL.AspNetCore.Graphiql": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            },
+            "GraphQl.AspNetCore": {
+              "target": "Package",
+              "version": "[1.1.4, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj",
+        "projectName": "IndividualTask",
+        "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.13, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.214\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

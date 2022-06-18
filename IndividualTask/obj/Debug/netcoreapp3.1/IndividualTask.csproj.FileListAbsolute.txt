@@ -1,0 +1,50 @@
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\appsettings.json
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.exe
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.deps.json
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.runtimeconfig.json
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.runtimeconfig.dev.json
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.dll
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.pdb
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.csprojAssemblyReference.cache
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.AssemblyInfoInputs.cache
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.AssemblyInfo.cs
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.csproj.CoreCompileInputs.cache
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.MvcApplicationPartsAssemblyInfo.cache
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\staticwebassets\IndividualTask.StaticWebAssets.Manifest.cache
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\staticwebassets\IndividualTask.StaticWebAssets.xml
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\scopedcss\bundle\IndividualTask.styles.css
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.RazorTargetAssemblyInfo.cache
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.csproj.CopyComplete
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.dll
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.pdb
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.genruntimeconfig.cache
+C:\recover\LNU\Вавричук\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.exe
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.deps.json
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.runtimeconfig.json
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.runtimeconfig.dev.json
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.dll
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\IndividualTask.pdb
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.csprojAssemblyReference.cache
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.AssemblyInfoInputs.cache
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.AssemblyInfo.cs
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\staticwebassets\IndividualTask.StaticWebAssets.Manifest.cache
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\staticwebassets\IndividualTask.StaticWebAssets.xml
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\scopedcss\bundle\IndividualTask.styles.css
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.RazorTargetAssemblyInfo.cache
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.csproj.CopyComplete
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.dll
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.pdb
+C:\Users\Asus\OneDrive\Документи\1 курс магістратури\Інтеграція\IndividualTask\IndividualTask\IndividualTask\obj\Debug\netcoreapp3.1\IndividualTask.genruntimeconfig.cache
