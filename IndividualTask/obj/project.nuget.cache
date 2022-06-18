@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p4vWSrE+bfRKMAsrcHl1jcBe/cL3x+ixrHLPOLk7W6EvVWwFaXbcfQPWBnSTHMSQUiYR5sXXwD1xmEdVKvI2GA==",
+  "dgSpecHash": "toEuJ6g0qorhbBcWnFwVkudzzYWSJBiTaCMuFgebXUdFNkCHVzLYvu/Ybui2bHtgzdn8IMNLe2IqeNDxJhYqvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\IndividualTask\\IndividualTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
@@ -92,7 +92,8 @@
     "C:\\Users\\Asus\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Asus\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
   "logs": []
 }

@@ -11401,11 +11401,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\GraphQLService\\GraphQLService.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\GraphQLService\\GraphQLService.csproj",
       "projectName": "GraphQLService",
-      "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\GraphQLService\\GraphQLService.csproj",
+      "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\GraphQLService\\GraphQLService.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\GraphQLService\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\GraphQLService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11426,11 +11426,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\ConsumerService.csproj": {
-              "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\ConsumerService.csproj"
+            "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\ConsumerService\\ConsumerService.csproj": {
+              "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\ConsumerService\\ConsumerService.csproj"
             },
-            "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj": {
-              "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj"
+            "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\IndividualTask\\IndividualTask.csproj": {
+              "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\IndividualTask\\IndividualTask.csproj"
             }
           }
         }
@@ -11476,6 +11476,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.25, 3.1.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

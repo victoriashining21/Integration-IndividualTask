@@ -7340,11 +7340,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\ConsumerService.csproj",
+      "projectUniqueName": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\ConsumerService\\ConsumerService.csproj",
       "projectName": "ConsumerService",
-      "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\ConsumerService.csproj",
+      "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\ConsumerService\\ConsumerService.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\obj\\",
+      "outputPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\ConsumerService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7365,8 +7365,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj": {
-              "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\IndividualTask\\IndividualTask.csproj"
+            "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\IndividualTask\\IndividualTask.csproj": {
+              "projectPath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\IndividualTask\\IndividualTask.csproj"
             }
           }
         }

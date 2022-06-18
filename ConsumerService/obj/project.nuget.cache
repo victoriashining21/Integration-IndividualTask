@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eoynQ5oiIKDHQMxpdLa3U3tXiZ0OGpWkcxdBWaToLh5vPo8t3YEp3k7zuPGPxsdI1huv2WjSczVjXLVduQY2GA==",
+  "dgSpecHash": "8tFk8qZn0qu0Alz42j+mWt++4AZEpb0hNOqUDQtH+sP+tXGHCh2K8aowdSCQQQ6Zs27noECn4dszD8NYYRA13Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Інтеграція\\IndividualTask\\IndividualTask\\ConsumerService\\ConsumerService.csproj",
+  "projectFilePath": "C:\\Users\\Asus\\OneDrive\\Документи\\1 курс магістратури\\Integration\\IndividualTask\\ConsumerService\\ConsumerService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Asus\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
