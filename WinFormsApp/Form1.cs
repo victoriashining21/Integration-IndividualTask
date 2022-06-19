@@ -31,16 +31,17 @@ namespace WinFormsApp
                 sqlD.Fill(dtbl);
 
                 dataGridView1.DataSource = dtbl;
+                myConnection.Close();
                 //this.dataGridView1.DataBindings["Value2"].DataSourceUpdateMode = DataSourceUpdateMode.OnPropertyChanged;
 
-                SqlCommandBuilder cb = new SqlCommandBuilder(sqlD);
+                //  SqlCommandBuilder cb = new SqlCommandBuilder(sqlD);
                 int userVal = int.Parse(textBox1.Text);
 
                 ////Create the SqlCommand to execute the stored procedure.
                 //sqlD.InsertCommand = new SqlCommand("dbo.News", myConnection);
                 //sqlD.InsertCommand.CommandType = CommandType.StoredProcedure;
-                string queryString = "UPDATE News SET Likes = +1 WHERE id>1";
-                SqlCommand command = new SqlCommand(queryString, myConnection);
+             //   string queryString = "UPDATE News SET Likes = +1 WHERE id>1";
+              //  SqlCommand command = new SqlCommand(queryString, myConnection);
 
                 //for (int i = 0; i < dtbl.Rows.Count; i++)
                 //{
@@ -77,36 +78,23 @@ namespace WinFormsApp
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            BindingSource MyBindingSorce = new BindingSource();
-            SqlDataAdapter MyDataAdapter = new SqlDataAdapter("SELECT * FROM News", connectString);
-            DataTable MyDataTable = new DataTable();
-            MyDataAdapter.Fill(MyDataTable);
-            MyBindingSorce.DataSource = MyDataTable;
-            SqlCommandBuilder MyCommandBuilder = new SqlCommandBuilder(MyDataAdapter);
-            MyDataAdapter.UpdateCommand = MyCommandBuilder.GetUpdateCommand(true);
-            //MydataAdapter.Update((DataTable)MyBindingSorce.DataSource); // или так
+            using (SqlConnection myConnection = new SqlConnection(connectString))
+            {
+                myConnection.Open();
+               // SqlDataAdapter sqlD = new SqlDataAdapter("SELECT * FROM News", myConnection);
+                //DataTable dtbl = new DataTable();
+                //sqlD.Fill(dtbl);
 
-            //dataGridView1.EndEdit();
-            //DataTable dataTable = new DataTable();
-            //DataView dv = (DataView)(dataGridView1.DataSource);
-            //dataTable = dv.ToTable();
-            //DataSet ds = new DataSet();
-            //ds.Tables.Add(dataTable);
-            //BindingSource bindingSource1 = new BindingSource();
-            //SqlDataAdapter dataAdapter = new SqlDataAdapter();
-            //dataAdapter.Update(ds);
+                //dataGridView1.DataSource = dtbl;
 
-            //  SqlConnection objConn
-            //      = new SqlConnection(connectString);
-            //  objConn.Open();
-
-            //  // Create an instance of a DataAdapter.
-            //  SqlDataAdapter daAuthors = new SqlDataAdapter("Select * FROM News", objConn);
-            //  SqlCommandBuilder objCommandBuilder = new SqlCommandBuilder(daAuthors);
-            //  DataSet dsPubs = new DataSet();
-            ////  dsPubs.Tables.Add() = dataGridView1;
-            //  daAuthors.Update(dsPubs, "News");
+                SqlCommandBuilder cb = new SqlCommandBuilder();
+                int userVal = int.Parse(textBox1.Text);
+                string queryString = "UPDATE News SET Likes = 1 WHERE id>5";
+                SqlCommand command = new SqlCommand(queryString, myConnection);
+                myConnection.Close();
+            }
 
         }
+
     }
 }
