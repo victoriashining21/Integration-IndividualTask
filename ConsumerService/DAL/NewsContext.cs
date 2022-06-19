@@ -13,6 +13,7 @@ namespace ConsumerService.DAL
        
         public NewsContext(DbContextOptions<NewsContext> options) : base(options)
         {
+           // EntityTypeBuilder.Ignore(Bit);
             Database.EnsureCreated();
         }
     }

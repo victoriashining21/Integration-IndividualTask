@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using ConsumerService.Contracts;
 using IndividualTask.Models;
@@ -23,6 +24,11 @@ namespace ConsumerService.DAL
         //}
         public void Insert(T entity)
         {
+           // entity.ToString();
+            //if (T entity != bool entity)
+            //{
+               
+            //}
             _entities.Add(entity);
             _context.SaveChanges();
         }
@@ -35,6 +41,26 @@ namespace ConsumerService.DAL
         public async Task<T> GetById(int id)
         {
             return await _entities.SingleOrDefaultAsync(s => s.Id == id);
+        }
+
+        public Task<T> LikesNewsByIdAsync(string id, int like)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task<T> DislikeNewsByIdAsync(string id, int dislike)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task DeleteAllAsync()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public Task DeleteByTitleAsync(string title)
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

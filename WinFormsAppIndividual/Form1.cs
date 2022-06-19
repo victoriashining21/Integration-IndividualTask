@@ -17,6 +17,9 @@ namespace WinFormsAppIndividual
     {
         //Data Source = VICTORIACHU21\SQLEXPRESS;Integrated Security = True; Connect Timeout = 30; Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
         string connectString = @"Data Source = VICTORIACHU21\SQLEXPRESS;Initial Catalog=News; Integrated Security=true;";
+        DataTable dtbl = new DataTable();
+        int like=0;
+        int dislike=0;
         public Form1()
         {
             InitializeComponent();
@@ -26,19 +29,12 @@ namespace WinFormsAppIndividual
 
         private void LoadData()
         {
-            
-            
 
             SqlConnection myConnection = new SqlConnection(connectString);
-
             myConnection.Open();
-
             string query = "SELECT * FROM dbo.News";
-
             SqlCommand command = new SqlCommand(query, myConnection);
-
             SqlDataReader reader = command.ExecuteReader();
-
             List<string[]> data = new List<string[]>();
 
             while (reader.Read())
@@ -51,9 +47,7 @@ namespace WinFormsAppIndividual
             }
 
             reader.Close();
-
             myConnection.Close();
-
             foreach (string[] s in data)
                 dataGridView1.Rows.Add(s);
         }
@@ -64,10 +58,23 @@ namespace WinFormsAppIndividual
             {
                 myConnection.Open();
                 SqlDataAdapter sqlD = new SqlDataAdapter("SELECT * FROM News", myConnection);
-                DataTable dtbl = new DataTable();
+                //DataTable dtbl = new DataTable();
                 sqlD.Fill(dtbl);
 
                 dataGridView1.DataSource = dtbl;
+
+                //for (int i = 0; i < dtbl.Rows.Count; i++)
+                //{
+                //    if (numericUpDown1.Value == i)
+                //    {
+                //       // like = Int32.Parse((string)dataGridView1[i, 7].Value) + 1;
+                //       // dataGridView1[i, 7].Value = like;
+                //        // dtbl.Columns[7].A
+                //    }
+                //    // Console.WriteLine(ogrtbl.Rows[i]["internet"].ToString());
+                //}
+
+             //   if (pictureBox2.Click == true)
             }
         }
 
@@ -109,6 +116,23 @@ namespace WinFormsAppIndividual
 
         }
 
+        //private void pictureBox2_Click(object sender, EventArgs e)
+        //{
+        //    //for (int i = 0; i < dtbl.Rows.Count; i++)
+        //    //{
+        //    //    if (numericUpDown1.Value == i)
+        //    //    {
+        //    //      //  dataGridView1.Columns[7] = 
+        //    //       // dtbl.Columns[7].A
+        //    //    }
+        //    //   // Console.WriteLine(ogrtbl.Rows[i]["internet"].ToString());
+        //    //}
+            
+        //}
 
+        //private void pictureBox3_Click(object sender, EventArgs e)
+        //{
+
+        //}
     }
 }

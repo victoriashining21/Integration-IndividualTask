@@ -11,5 +11,9 @@ namespace ConsumerService.Contracts
         void Insert(T entity);
         Task<IEnumerable<T>> GetAll();
         Task<T> GetById(int id);
+        Task<T> LikesNewsByIdAsync(string id, int like);
+        Task<T> DislikeNewsByIdAsync(string id, int dislike);
+        Task DeleteAllAsync();
+        Task DeleteByTitleAsync(string title);
     }
 }

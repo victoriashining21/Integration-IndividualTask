@@ -63,6 +63,16 @@ namespace WinFormsAppIndividual.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _360_F_259878229_nJYuCzVbRJvlCzFGjzm3HOClYyIpnGcQ {
+            get {
+                object obj = ResourceManager.GetObject("360_F_259878229_nJYuCzVbRJvlCzFGjzm3HOClYyIpnGcQ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hromodske {
             get {
                 object obj = ResourceManager.GetObject("hromodske", resourceCulture);
