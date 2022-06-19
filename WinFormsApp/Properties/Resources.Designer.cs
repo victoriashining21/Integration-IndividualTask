@@ -79,5 +79,25 @@ namespace WinFormsApp.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Compressed_n3nZ19DGIeTCwgQb {
+            get {
+                object obj = ResourceManager.GetObject("imgonline-com-ua-Compressed-n3nZ19DGIeTCwgQb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imgonline_com_ua_Compressed_n3nZ19DGIeTCwgQb1 {
+            get {
+                object obj = ResourceManager.GetObject("imgonline-com-ua-Compressed-n3nZ19DGIeTCwgQb1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -32,5 +32,10 @@ namespace WinFormsApp
                 dataGridView1.DataSource = dtbl;
             }
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
