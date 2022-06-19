@@ -13,5 +13,7 @@ namespace IndividualTask.Models
         public string Author { get; set; }
         public string Date { get; set; }
         public string Url { get; set; }
+        public bool Like { get; internal set; }
+        public bool Dislike { get; internal set; }
     }
 }
