@@ -18,8 +18,8 @@ namespace GraphQLService.Enteties
             Field(_=>_.ShortDescription);
             Field(_=>_.Url);
             Field(_=>_.Date);
-            Field(_ => _.Likes);
-            Field(_ => _.Dislike);
+            Field(_ =>_.Likes);
+            Field(_ =>_.Dislike);
         }
     }
 }

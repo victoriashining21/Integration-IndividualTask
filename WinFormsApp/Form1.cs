@@ -18,6 +18,7 @@ namespace WinFormsApp
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -30,11 +31,81 @@ namespace WinFormsApp
                 sqlD.Fill(dtbl);
 
                 dataGridView1.DataSource = dtbl;
+                //this.dataGridView1.DataBindings["Value2"].DataSourceUpdateMode = DataSourceUpdateMode.OnPropertyChanged;
+
+                SqlCommandBuilder cb = new SqlCommandBuilder(sqlD);
+                int userVal = int.Parse(textBox1.Text);
+
+                ////Create the SqlCommand to execute the stored procedure.
+                //sqlD.InsertCommand = new SqlCommand("dbo.News", myConnection);
+                //sqlD.InsertCommand.CommandType = CommandType.StoredProcedure;
+                string queryString = "UPDATE News SET Likes = +1 WHERE id>1";
+                SqlCommand command = new SqlCommand(queryString, myConnection);
+
+                //for (int i = 0; i < dtbl.Rows.Count; i++)
+                //{
+                //    if (userVal == i)
+                //    {
+
+                //       //int like = Convert.ToInt32(dataGridView1[i, 7].Value) + 1;
+                //       // cb = new SqlCommandBuilder(sqlD);
+                //       // cb.GetUpdateCommand();
+
+
+                //        SqlDataAdapter adapter = sqlD;
+                //        SqlCommandBuilder sqlBld = new SqlCommandBuilder(adapter);
+                //        adapter.UpdateCommand = sqlBld.GetUpdateCommand();
+
+                //        // sqlD.Update(dataGridView1);
+                //        DataSet ds = new DataSet();
+                //        SelectSqlRows(connectString, "", "News");
+                //    }
             }
+            // string queryString = "INSERT INTO Customers " + "(CustomerID, CompanyName) Values('NWIND', 'Northwind Traders')";
+
         }
 
+        private static void CreateCommand(string queryString, string connectionString)
+        {
+            using (SqlConnection connection = new SqlConnection(
+                       connectionString))
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);
+                command.Connection.Open();
+                command.ExecuteNonQuery();
+            }
+        }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            BindingSource MyBindingSorce = new BindingSource();
+            SqlDataAdapter MyDataAdapter = new SqlDataAdapter("SELECT * FROM News", connectString);
+            DataTable MyDataTable = new DataTable();
+            MyDataAdapter.Fill(MyDataTable);
+            MyBindingSorce.DataSource = MyDataTable;
+            SqlCommandBuilder MyCommandBuilder = new SqlCommandBuilder(MyDataAdapter);
+            MyDataAdapter.UpdateCommand = MyCommandBuilder.GetUpdateCommand(true);
+            //MydataAdapter.Update((DataTable)MyBindingSorce.DataSource); // или так
+
+            //dataGridView1.EndEdit();
+            //DataTable dataTable = new DataTable();
+            //DataView dv = (DataView)(dataGridView1.DataSource);
+            //dataTable = dv.ToTable();
+            //DataSet ds = new DataSet();
+            //ds.Tables.Add(dataTable);
+            //BindingSource bindingSource1 = new BindingSource();
+            //SqlDataAdapter dataAdapter = new SqlDataAdapter();
+            //dataAdapter.Update(ds);
+
+            //  SqlConnection objConn
+            //      = new SqlConnection(connectString);
+            //  objConn.Open();
+
+            //  // Create an instance of a DataAdapter.
+            //  SqlDataAdapter daAuthors = new SqlDataAdapter("Select * FROM News", objConn);
+            //  SqlCommandBuilder objCommandBuilder = new SqlCommandBuilder(daAuthors);
+            //  DataSet dsPubs = new DataSet();
+            ////  dsPubs.Tables.Add() = dataGridView1;
+            //  daAuthors.Update(dsPubs, "News");
 
         }
     }

@@ -13,7 +13,7 @@ namespace ConsumerService.Contracts
         Task<T> GetById(int id);
         Task<T> LikesNewsByIdAsync(string id, int like);
         Task<T> DislikeNewsByIdAsync(string id, int dislike);
-        Task DeleteAllAsync();
-        Task DeleteByTitleAsync(string title);
+        //Task DeleteAllAsync();
+        //Task DeleteByTitleAsync(string title);
     }
 }

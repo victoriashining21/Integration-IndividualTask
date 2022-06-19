@@ -53,14 +53,14 @@ namespace ConsumerService.DAL
             throw new System.NotImplementedException();
         }
 
-        public Task DeleteAllAsync()
-        {
-            throw new System.NotImplementedException();
-        }
+        //public Task DeleteAllAsync()
+        //{
+        //    throw new System.NotImplementedException();
+        //}
 
-        public Task DeleteByTitleAsync(string title)
-        {
-            throw new System.NotImplementedException();
-        }
+        //public Task DeleteByTitleAsync(string title)
+        //{
+        //    throw new System.NotImplementedException();
+        //}
     }
 }
