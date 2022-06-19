@@ -42,7 +42,7 @@ namespace IndividualTask.Selenium
                     n.Author = driver.FindElement(By.ClassName("PostAuthor-name")).Text;
                     n.ShortDescription = driver.FindElement(By.ClassName("PostContent-leadTextWrapper")).Text;
                     n.Date = driver.FindElement(By.ClassName("PostHeader-published")).Text;
-                    n.Like = false;
+                    n.Like = false; 
                     n.Dislike = false;
 
 
